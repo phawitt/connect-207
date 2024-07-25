@@ -26,6 +26,10 @@ deployAs:
           required: true
         - key: CART_UPDATE_EXTENSION_KEY
           description: cart update extension key for post-deploy
+          required: true
+        - key: CONNECT_APPLICATION_URL_KEY
+          description: connect url key for post-deploy
+          required: true
   - name: job
     applicationType: job
     endpoint: /job
